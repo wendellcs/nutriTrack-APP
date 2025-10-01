@@ -26,5 +26,11 @@ export const generalStyles = StyleSheet.create({
     normalText: {
         color: '#FFF',
         fontSize: 16
+    },
+
+    iconStyle: {
+        fontSize: 35,
+        color: colors.primary,
+        margin: 20
     }
 })

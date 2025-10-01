@@ -10,4 +10,3 @@ export const colors = {
     transparentBg: '#00000071',
     border: '#E2E8F0',
 }
-
