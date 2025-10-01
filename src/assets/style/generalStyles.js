@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native"
 
+import { colors } from "./variables"
+
 export const generalStyles = StyleSheet.create({
     container: {
         flex: 1,
@@ -15,14 +17,14 @@ export const generalStyles = StyleSheet.create({
     },
 
     title: {
-        color: '#36B47A',
+        color: colors.primary,
         fontWeight: 'bold',
-        fontSize: '28px',
+        fontSize: 28,
         margin: '10px'
     },
 
     normalText: {
         color: '#FFF',
-        fontSize: '16px'
+        fontSize: 16
     }
 })
